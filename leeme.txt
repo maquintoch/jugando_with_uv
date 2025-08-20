@@ -1,0 +1,5 @@
+# For creating the docker container based on an image preeviously created by:
+docker build -t webapp-color:lite (based on alpine)
+and then:
+docker run -p 8383:8080 webapp-color:lite
+# Important:
